@@ -28,12 +28,12 @@ let listOfNames = names.map(function(item){
 let listOfNames2 = names.map(item=>{console.log(item.name)})
 
 const listOfNames3 = (name,age,country)=>{
-    ...
+    console.log(name)
 }
 
 
 const listOfNames4 = name =>{
-    ...
+    console.log(name)
 }
 
 
