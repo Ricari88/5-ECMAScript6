@@ -55,3 +55,31 @@ const helloPromise = () =>{
 helloPromise()
     .then(response=>console.log(response))
     .catch(error=>console.log(error));
+
+
+
+//clases
+class calculator{
+    constructor(){
+        this.valueA = 0;
+        this.valueB = 0;
+    }
+
+    sum(valueA,valueB){
+        this.valueA = valueA;
+        this.valueB = valueB;
+
+        return this.valueA + this.valueB;
+    }
+}
+
+
+const calc = new calculator();
+
+console.log(calc.sum(2,2))
+
+
+//trabajar con modulos import y export
+import { hello } from './modulos';
+
+hello();
